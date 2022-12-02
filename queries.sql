@@ -1,7 +1,8 @@
 -- Part 1: Test it with SQL
-
+-- id int
 -- Part 2: Test it with SQL
-
+-- employer varchar (255)
 -- Part 3: Test it with SQL
-
+-- name varchar(255)
 -- Part 4: Test it with SQL
+-- skills varchar(255)
