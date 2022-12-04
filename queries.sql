@@ -1,8 +1,13 @@
 -- Part 1: Test it with SQL
--- id int
+-- id int; employer varchar; name varchar; skills varchar
 -- Part 2: Test it with SQL
--- employer varchar (255)
+    SELECT name FROM employer
+    WHERE location = "St. Louis City";
 -- Part 3: Test it with SQL
--- name varchar(255)
+    DROP TABLE job;
 -- Part 4: Test it with SQL
--- skills varchar(255)
+    SELECT * FROM skill
+    LEFT JOIN job_skills
+    ON skill.id = job_skills.skill_id
+    WHERE job.skills.job.id IS NOT NULL
+    ORDER BY name ASC;
